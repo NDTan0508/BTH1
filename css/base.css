@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-right: 200px;
+}
+.header .menu a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+.header .menu ul li{
+    padding: 15px;
+    margin: 0 10px 0 0;
+}
+.content .sidebar{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.content .sidebar a{
+    min-width: 300px;
+    min-height: 230px;
+}
+.content .sidebar .chon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.sidebar .vanphong{
+    background-image: url(/images/van-phong.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .bietthu{
+    background-image: url(/images/biet-thu.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .canho{
+    background-image: url(/images/can-ho.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .nhapho{
+    background-image: url(/images/nha-pho.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .chon:hover{
+   cursor: pointer;
+}
+.content_2 .slidebar_2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.content_2 .slidebar_2 a{
+    min-width: 300px;
+    min-height: 230px;
+}
+.content_2 .slidebar_2 .chon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.slidebar_2 .nhamay{
+    background-image: url(/images/nha-may.jpg);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.slidebar_2 .showroom{
+    background-image: url(/images/showroom.jpg);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.slidebar_2 .gioithieu{
+    background-image: url(/images/gioi-thieu.jpg);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slidebar_2 .chon:hover{
+    cursor: pointer;
+ }
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellow;
+    margin-top: 30px;
+}
+footer div{
+    padding: 3% 10% 3% 10%;
+}
